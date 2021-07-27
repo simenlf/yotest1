@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+cat default-env.json | jq .VCAP_SERVICES > default-env-mock.json
